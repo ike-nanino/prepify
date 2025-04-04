@@ -11,11 +11,20 @@ const monaSans = Mona_Sans({
 export const metadata: Metadata = {
   title: {
     default: "Prepify - AI-Powered Interview Preparation",
-    template: "%s | Prepify"
+    template: "%s | Prepify - AI Interview Coach"
   },
-  description: "Master your interviews with AI-powered mock sessions, real-time feedback, and comprehensive question banks. Trusted by 50,000+ job seekers.",
+  description: "Ace your job interviews with Prepify. Experience realistic AI-powered mock interviews, real-time coaching, feedback, and expert-crafted question banks. Loved by 50,000+ professionals.",
   applicationName: "Prepify",
-  keywords: ["interview preparation", "AI mock interviews", "job search", "career coaching", "technical interviews"],
+  keywords: [
+    "AI interview platform",
+    "mock interview practice",
+    "technical interviews",
+    "career prep tools",
+    "AI interview coach",
+    "behavioral interview questions",
+    "software engineering interviews",
+    "prep for tech interviews"
+  ],
   
   // Icon Section - Modern Approach
   icons: {
@@ -27,18 +36,11 @@ export const metadata: Metadata = {
     apple: [
       { url: "/apple-touch-icon.png", sizes: "180x180" },
     ],
-    other: [
-      {
-        rel: "mask-icon",
-        url: "/safari-pinned-tab.svg",
-        color: "#5bbad5"
-      }
-    ]
   },
 
   // Open Graph - Modern Requirements
   openGraph: {
-    title: "Prepify - AI Interview Coach",
+    title: "Prepify - Crush Interviews with AI-Powered Practice",
     description: "Practice interviews with AI and get detailed feedback instantly",
     url: "https://prepifyy.vercel.app",
     siteName: "Prepify",
@@ -58,7 +60,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Prepify - AI Interview Coach",
-    description: "Practice interviews with AI and get detailed feedback instantly",
+    description: "Nail your next job interview with AI-powered mock sessions and real-time coaching.",
     images: ["https://prepifyy.vercel.app/og-image.jpg"], // Absolute URL
     creator: "@prepify_team",
     site: "@prepify",
@@ -91,9 +93,6 @@ export const metadata: Metadata = {
   // Verification - Needs Actual Codes
   verification: {
     google: "google-site-verification=3pLyWnVH_-VBzUabZAeF-mBwwZUcvaA7vNzwox6lkRE",
-    other: {
-      me: ["your@email.com"],
-    },
   },
 
   // Internationalization
@@ -124,9 +123,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body
-        className={`${monaSans.variable} antialiased`}
+        className={`${monaSans.className} antialiased`}
       >
         {children}
       </body>

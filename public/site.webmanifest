@@ -1,0 +1,23 @@
+{
+    "name": "Prepify - AI Interview Coach",
+    "short_name": "Prepify",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#121212",
+    "theme_color": "#121212",
+    "orientation": "portrait",
+    "description": "Prepify helps you master job interviews with AI-powered mock interviews, real-time coaching, and personalized feedback.",
+    "icons": [
+      {
+        "src": "/favicon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
