@@ -7,6 +7,12 @@ const monaSans = Mona_Sans({
   subsets: ["latin"],
 });
 
+import type { Viewport } from 'next'
+ 
+export const viewport: Viewport = {
+  themeColor: 'black',
+}
+
 
 export const metadata: Metadata = {
   title: {
@@ -62,7 +68,7 @@ export const metadata: Metadata = {
     title: "Prepify - AI Interview Coach",
     description: "Nail your next job interview with AI-powered mock sessions and real-time coaching.",
     images: ["https://prepifyy.vercel.app/og-image.jpg"], // Absolute URL
-    creator: "@prepify_team",
+    creator: "@nanino",
     site: "@prepify",
   },
 
@@ -82,7 +88,7 @@ export const metadata: Metadata = {
   },
 
   // PWA Configuration
-  themeColor: "#1a1a1a",
+
   manifest: "/site.webmanifest",
   appleWebApp: {
     title: "Prepify",
