@@ -1,0 +1,7 @@
+{
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "text": "Be extremely detailed with the file naming commit messages. Add lots of emojis",
+        }
+    ]
+}

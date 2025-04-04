@@ -40,11 +40,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Prepify - AI Interview Coach",
     description: "Practice interviews with AI and get detailed feedback instantly",
-    url: "https://prepify.vercel.app",
+    url: "https://prepifyy.vercel.app",
     siteName: "Prepify",
     images: [
       {
-        url: "https://prepify.vercel.app/og-image.jpg", // Absolute URL required
+        url: "https://prepifyy.vercel.app/og-image.jpg", // Absolute URL required
         width: 1200,
         height: 630,
         alt: "Prepify AI Interview Platform",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Prepify - AI Interview Coach",
     description: "Practice interviews with AI and get detailed feedback instantly",
-    images: ["https://prepify.vercel.app/og-image.jpg"], // Absolute URL
+    images: ["https://prepifyy.vercel.app/og-image.jpg"], // Absolute URL
     creator: "@prepify_team",
     site: "@prepify",
   },
@@ -86,17 +86,11 @@ export const metadata: Metadata = {
     title: "Prepify",
     statusBarStyle: "black-translucent",
     capable: true,
-    startupImage: [
-      {
-        url: "/apple-touch-startup-image-2048x2732.png",
-        media: "(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-      },
-    ],
   },
 
   // Verification - Needs Actual Codes
   verification: {
-    google: "google-site-verification=your_actual_code_here",
+    google: "google-site-verification=3pLyWnVH_-VBzUabZAeF-mBwwZUcvaA7vNzwox6lkRE",
     other: {
       me: ["your@email.com"],
     },
@@ -104,19 +98,19 @@ export const metadata: Metadata = {
 
   // Internationalization
   alternates: {
-    canonical: "https://prepify.vercel.app",
+    canonical: "https://prepifyy.vercel.app",
     languages: {
-      "en-US": "https://prepify.vercel.app/en",
-      "es-ES": "https://prepify.vercel.app/es",
+      "en-US": "https://prepifyy.vercel.app/en",
+      "es-ES": "https://prepifyy.vercel.app/es",
     },
     types: {
-      "application/rss+xml": "https://prepify.vercel.app/rss.xml",
+      "application/rss+xml": "https://prepifyy.vercel.app/rss.xml",
     },
   },
 
   // Modern Additions
   category: "education",
-  metadataBase: new URL("https://prepify.vercel.app"),
+  metadataBase: new URL("https://prepifyy.vercel.app"),
   formatDetection: {
     email: true,
     address: false,
