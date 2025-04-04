@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Mona_Sans } from "next/font/google";
+import { Mona_Sans, Poppins } from "next/font/google";
+import type { Viewport } from 'next'
 import "./globals.css";
 
 const monaSans = Mona_Sans({
@@ -7,7 +8,7 @@ const monaSans = Mona_Sans({
   subsets: ["latin"],
 });
 
-import type { Viewport } from 'next'
+
  
 export const viewport: Viewport = {
   themeColor: 'black',
@@ -131,7 +132,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${monaSans.className} antialiased`}
+        className={`${monaSans.className} antialiased pattern`}
       >
         {children}
       </body>
