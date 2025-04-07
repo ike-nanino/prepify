@@ -28,6 +28,7 @@ const Agent = ({
   interviewId,
   feedbackId,
   type,
+  profileImage,
   questions,
 }: AgentProps) => {
   const router = useRouter();
